@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "retnair"
+    organization = "tsg"
 
     workspaces {
-      name = "dev"
+      name = "gh-actions-demo"
     }
   }
 }
